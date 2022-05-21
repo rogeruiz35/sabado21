@@ -20,7 +20,7 @@ public class AppTest {
 
         Assert.assertEquals(pageTitle, "Login | Salesforce");
 
-        Thread.sleep(2000);
+        Thread.sleep(1000);
 
         driver.quit();
     }
